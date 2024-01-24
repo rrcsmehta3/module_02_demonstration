@@ -20,7 +20,7 @@ print("apples","oranges","bananas",sep=",")
 
 name = "Sapana"
 age = 19
-print(f"My name is {name} and I m {age} years old.")
+print(f"My name is {name} and I'm {age} years old.")
 
 value = 3.14159
 print(f"The value is {value:.2f}.")
@@ -30,3 +30,29 @@ print(f"The number is {number:05}.")
 
 name = "Sapana"
 print(f"Hello, {name:>10}.")
+
+name = "John"       #str
+age = 25            #int 
+salary = 67293.21   #float 
+is_employed = True  #bool      
+
+
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(is_employed))
+
+age = 25 
+current_salary = 6793.21
+
+age_and_salary = age + current_salary  #implicit
+
+months_old = "11"
+years_old = 25
+age = float(years_old) +(float(months_old)/ 12)  #explicit
+print("Age as a float:" , age)
+
+age = int(age) #explicit
+print("Age as an int:" , age)
+
+
