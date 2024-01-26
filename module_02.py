@@ -64,3 +64,9 @@ number_list ={1, 2, 3}
 full_name = "Sapana" + "" + "Mehta"
 # full_name = "Sapana Mehta"
 
+
+#Append the value 8694 to the end of the list.
+daily_step_count.append(8694)
+print(daily_step_count)
+
+
