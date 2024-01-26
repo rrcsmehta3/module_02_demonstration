@@ -55,4 +55,12 @@ print("Age as a float:" , age)
 age = int(age) #explicit
 print("Age as an int:" , age)
 
+# Assign a value to a variable
+age = 20
+greeting = 'Hello World'
+number_list ={1, 2, 3}
+
+#Addition 
+full_name = "Sapana" + "" + "Mehta"
+# full_name = "Sapana Mehta"
 
